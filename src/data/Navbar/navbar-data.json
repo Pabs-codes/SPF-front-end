@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "to": "home"
+  },
+
+  {
+    "id": 2,
+    "title": "About",
+    "to": "about"
+  },
+
+  {
+    "id": 3,
+    "title": "Architectures",
+    "to": "architecture"
+  },
+
+  {
+    "id": 4,
+    "title": "Designs",
+    "to": "3d_design"
+  },
+
+  {
+    "id": 5,
+    "title": "Hardware",
+    "to": "hardware"
+  },
+
+  {
+    "id": 6,
+    "title": "Security",
+    "to": "security_aspects"
+  },
+
+  {
+    "id": 7,
+    "title": "Budget",
+    "to": "budget"
+  },
+
+  {
+    "id": 8,
+    "title": "Timeline",
+    "to": "timeline"
+  },
+
+  {
+    "id": 9,
+    "title": "Team",
+    "to": "team"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Supun Basura",
+    "role": "KAHDSE22.1F-017",
+    "image": "team/supun.jpg",
+    "social": [
+      {
+        "id": 1,
+        "icon": "facebook",
+        "link": "https://www.facebook.com"
+      },
+      {
+        "id": 2,
+        "icon": "linkedin",
+        "link": "www.linkedin.com"
+      },
+      {
+        "id": 2,
+        "icon": "github",
+        "link": "www.linkedin.com"
+      },
+      {
+        "id": 2,
+        "icon": "instagram",
+        "link": "www.linkedin.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mahel Chandupa",
+    "role": "KAHDSE22.1F-020",
+    "image": "team/mahel.jpg",
+    "social": [
+      {
+        "id": 1,
+        "icon": "facebook",
+        "link": "https://www.facebook.com"
+      },
+      {
+        "id": 2,
+        "icon": "linkedin",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pabasara Navod",
+    "role": "KAHDSE22.1F-016",
+    "image": "team/pabs.jpg",
+    "social": [
+      {
+        "id": 1,
+        "icon": "facebook",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "icon": "linkedin",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Akila Agalakumbura",
+    "role": "KAHDSE22.1F-019",
+    "image": "team/akila.jpg",
+    "social": [
+      {
+        "id": 1,
+        "icon": "facebook",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "icon": "linkedin",
+        "link": ""
+      }
+    ]
+  }
+]
