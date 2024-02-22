@@ -3281,11 +3281,46 @@ img.mfp-img {
 }
 
 .pricing-box {
-    padding: 40px;
+    /* padding: 40px;
     text-align: center;
     background: #fff;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease; */
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-width: 30%;
+    max-height: 98%;
+    text-align: center;
+    padding: 40px;
+
+    background-image: url('../css/petsss.jpg');    
+    background-size: cover; /* This ensures the image covers the entire container */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+
 }
+
+.social-iconss{
+    margin: 10px 10px;
+    color: #000;
+}
+
+.social-iconss a{
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+}
+
+
 
 .pricing-box i {
     font-size: 40px;
@@ -4295,15 +4330,19 @@ ul.footer-gallery li img {
     margin-bottom: 30px;
 }
 
+.inputdiv{
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    height: 100%;
+}
+
 .form-control {
-    height: 60px;
-    padding: 20px 30px;
-    font-size: 16px;
-    line-height: 25px;
-    font-weight: 300;
-    color: #212121;
-    border: 1px solid #eee;
-    border-radius: 0;
+    border: 1px solid #36de07; /* Red border for invalid input */
+    color: #0b0a0a; 
+    width: 300px;
+    align-items: center;
+ 
 }
 
 .form-control:focus {
@@ -7105,8 +7144,13 @@ form.register {
 
 .error-message {
     color: #ff3333;
-    font-family: Roboto;
-    margin-top: 5px;
+    font-family:sans-serif;
+    font-size: 12px;
+    padding: 0;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
 
 .success-message {

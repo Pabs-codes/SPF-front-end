@@ -17,6 +17,8 @@ import Loader from "react-loader-spinner";
 import DeleteIcon from "@material-ui/icons/Done";
 import Fab from "@material-ui/core/Fab";
 
+import { FaFacebook, FaInstagram, FaLinkedin, FaGoogle } from 'react-icons/fa'
+
 const useStyles = makeStyles((theme) => ({
     paper: {
         backgroundColor: theme.palette.background.paper,
@@ -221,10 +223,27 @@ export default function SignUpForm(props) {
 
                         {!isRegistered && (<form>
                             <div align="middle">
+
+                                
                                 <h2>REGISTER</h2>
+                                <h5 style={{ fontSize: '10px', overflow: 'hidden', whiteSpace: 'nowrap', marginTop: '-10px', animation: 'typing 2s steps(30, end) ', color: 'green' }}>
+                            Welcome to Smart Pet feeder ! </h5>
                             </div>
 
-                            <div>
+                            <span style={{ color: '#808080', fontSize: '12px' }}> <br/>Sign up using </span>
+
+                            <div class="social-iconss">
+                            <div className="social-icons">
+    <a href="#" className="icon"><FaFacebook style={{ color: '#4267B2' }} /></a>
+    <a href="#" className="icon"><FaInstagram style={{ color: '#E4405F' }} /></a>
+    <a href="#" className="icon"><FaLinkedin style={{ color: '#0077B5' }} /></a>
+    <a href="#" className="icon"><FaGoogle style={{ color: '#DB4437' }} /></a>
+</div>
+<span style={{ color: '#808080', fontSize: '12px' }}> or use your email </span>
+
+                </div>
+                <div className="inputdiv">
+                <div style={{ display: 'flex', flexDirection: 'column' }}> 
                                 <input
                                     type="input"
                                     id="name"
@@ -240,7 +259,8 @@ export default function SignUpForm(props) {
                                         *Name should contain at least 5 characters.
                                     </p>
                                 )}
-                            </div>
+                           
+                     
 
                             <div>
                                 <input
@@ -325,6 +345,8 @@ export default function SignUpForm(props) {
                                         *Pet feeder ID should be length of 10 characters
                                     </p>
                                 )}
+                            </div>
+                            </div>
                             </div>
 
                             <div className="form-actions">

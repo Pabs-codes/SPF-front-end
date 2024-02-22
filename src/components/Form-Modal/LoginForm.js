@@ -15,6 +15,9 @@ import * as authActions from "../../store/actions/auth";
 import Loader from "react-loader-spinner";
 import {Alert} from "bootstrap"
 
+import { FaFacebook, FaInstagram, FaLinkedin, FaGoogle } from 'react-icons/fa';
+
+
 const useStyles = makeStyles((theme) => ({
     paper: {
         backgroundColor: theme.palette.background.paper,
@@ -169,24 +172,44 @@ export default function LoginForm(props) {
                     <div className="pricing-box" style={{width: 400}}>
                         <form>
                             <div align="middle">
-                                <h2 className="">LOGIN</h2>
+                            
+
+                                <h2 className="">Sign In</h2>
+                                <h5 style={{ fontSize: '10px', overflow: 'hidden', whiteSpace: 'nowrap', marginTop: '-10px', animation: 'typing 2s steps(30, end) ', color: 'green' }}>
+                            Welcome Back to Smart Pet feeder !</h5>
                             </div>
-                            <div>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    placeholder="Email"
-                                    value={email}
-                                    onChange={emailChangeHandler}
-                                    onBlur={emailBlurHandler}
-                                    className="form-control invalid"
-                                    required="required"
-                                />
-                                {emailHasError && (
-                                    <p className="error-message">*Incorrect Email</p>
-                                )}
-                            </div>
-                            <div>
+
+                            <span style={{ color: '#808080', fontSize: '12px' }}> SignIn using </span>
+                            <div class="social-iconss">
+                            <div className="social-icons">
+    <a href="#" className="icon"><FaFacebook style={{ color: '#4267B2' }} /></a>
+    <a href="#" className="icon"><FaInstagram style={{ color: '#E4405F' }} /></a>
+    <a href="#" className="icon"><FaLinkedin style={{ color: '#0077B5' }} /></a>
+    <a href="#" className="icon"><FaGoogle style={{ color: '#DB4437' }} /></a>
+</div>
+<span style={{ color: '#808080', fontSize: '12px' }}> <br/>or use your email & password</span>
+
+                </div>
+                <div className="inputdiv">
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            value={email}
+            onChange={emailChangeHandler}
+            onBlur={emailBlurHandler}
+            className="form-control invalid"
+            required="required"
+        />
+        {emailHasError && (
+            <p className="error-message">Invalid Email</p>
+        )}
+    </div>
+</div>
+
+                            <div className="inputdiv">
+                            <div style={{ display: 'flex', flexDirection: 'column' }}> 
                                 <input
                                     type="password"
                                     id="password"
@@ -197,10 +220,25 @@ export default function LoginForm(props) {
                                     className="form-control"
                                     required="required"
                                 />
+                                  
                                 {passwordHasError && (
-                                    <p className="error-message">*Password should not be empty</p>
+                                    <p className="error-message">Please enter your password</p>
                                 )}
+                                
+                                </div>
                             </div>
+                            <a href="#" style={{ color: 'gray', fontSize: '12px', display: 'block', marginBottom: '10px', textDecoration: 'none' }}
+   onMouseOver={(e) => e.target.style.color = 'red'}
+   onMouseOut={(e) => e.target.style.color = 'gray'}
+>
+    Forgot Password?
+</a>
+
+
+
+
+                          
+
 
                             {!isOTPPage && (
                                 <div className="form-actions">

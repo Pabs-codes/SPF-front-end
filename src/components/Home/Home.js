@@ -27,7 +27,7 @@ const Home = () => {
                             <div
                                 className="slide-img"
                                 style={{
-                                    background: `url(${require("../../assets/images/background/1.jpg")}) center center / cover scroll no-repeat`,
+                                    background: `url(${require("../../assets/images/background/9.jpg")}) center center / cover scroll no-repeat`,
                                 }}
                             />
                             <div className={"hero-text-wrap "}>
@@ -65,18 +65,18 @@ const Home = () => {
                             <div
                                 className="slide-img"
                                 style={{
-                                    background: `url(${require("../../assets/images/background/home.jpg")}) center center / cover scroll no-repeat`,
+                                    background: `url(${require("../../assets/images/background/11.jpg")}) center center / cover scroll no-repeat`,
                                 }}
                             />
                             <div className={"hero-text-wrap "}>
                                 <div className="hero-text white-color">
                                     <div className="container text-center">
                                         <h2 className="white-color font-500 letter-spacing-5">
-                                        FEEDING FURRY FRIENDS
+                                        FEED THEM ANYTIME FROM ANYWHERE
                                         </h2>
                                        
                                         <h3 className="white-color font-400 fst-italic">
-                                        Every mealtime is a tail-wagging delight
+                                        nourishing your pets becomes effortless and stress-free.
                                         </h3>
 
                                         <div className="text-center mt-30">
@@ -101,7 +101,7 @@ const Home = () => {
                             <div
                                 className="slide-img"
                                 style={{
-                                    background: `url(${require("../../assets/images/background/2.jpg")}) center center / cover scroll no-repeat`,
+                                    background: `url(${require("../../assets/images/background/10.jpg")}) center center / cover scroll no-repeat`,
                                 }}
                             />
                             <div className={"hero-text-wrap "}>
@@ -257,6 +257,181 @@ const Home = () => {
                                        
                                         <h3 className="white-color font-400 fst-italic">
                                         Where love meets nourishment, and tails never stop wagging
+                                        </h3>
+
+                                        <div className="text-center mt-30">
+                                            <div
+                                                className={"btn btn-animate btn-circle btn-color"}
+                                            >
+                                                     <span onClick={handleDownload}>
+                                                        Mobile App
+                                                        <i className="icofont icofont-arrow-right"/>
+                                                    </span>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div
+                                className="slide-img"
+                                style={{
+                                    background: `url(${require("../../assets/images/background/7.jpg")}) center center / cover scroll no-repeat`,
+                                }}
+                            />
+                            <div className={"hero-text-wrap "}>
+                                <div className="hero-text white-color">
+                                    <div className="container text-center">
+                                        <h2 className="white-color font-500 letter-spacing-5">
+                                        WHERE DIGITAL SOLUTIONS MEET FURRY DEVOTION
+                                        </h2>
+                                       
+                                        <h3 className="white-color font-400 fst-italic">
+                                        Timeless Love: Elevating Pet Care with Technology
+                                        </h3>
+
+                                        <div className="text-center mt-30">
+                                            <div
+                                                className={"btn btn-animate btn-circle btn-color"}
+                                            >
+                                                     <span onClick={handleDownload}>
+                                                        Mobile App
+                                                        <i className="icofont icofont-arrow-right"/>
+                                                    </span>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div
+                                className="slide-img"
+                                style={{
+                                    background: `url(${require("../../assets/images/background/8.jpg")}) center center / cover scroll no-repeat`,
+                                }}
+                            />
+                            <div className={"hero-text-wrap "}>
+                                <div className="hero-text white-color">
+                                    <div className="container text-center">
+                                        <h2 className="white-color font-500 letter-spacing-5">
+                                        AUTOMATED AFFECTION
+                                        </h2>
+                                       
+                                        <h3 className="white-color font-400 fst-italic">
+                                        Where Tech and Tender Care Collide!
+                                        </h3>
+
+                                        <div className="text-center mt-30">
+                                            <div
+                                                className={"btn btn-animate btn-circle btn-color"}
+                                            >
+                                                     <span onClick={handleDownload}>
+                                                        Mobile App
+                                                        <i className="icofont icofont-arrow-right"/>
+                                                    </span>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div
+                                className="slide-img"
+                                style={{
+                                    background: `url(${require("../../assets/images/background/10.jpg")}) center center / cover scroll no-repeat`,
+                                }}
+                            />
+                            <div className={"hero-text-wrap "}>
+                                <div className="hero-text white-color">
+                                    <div className="container text-center">
+                                        <h2 className="white-color font-500 letter-spacing-5">
+                                        NEVER LET HUNGER STRIKE YOUR FURRY PALS
+                                        </h2>
+                                       
+                                        <h3 className="white-color font-400 fst-italic">
+                                        Every mealtime is a tail-wagging delight
+                                        </h3>
+
+                                        <div className="text-center mt-30">
+                                            <div
+                                                className={"btn btn-animate btn-circle btn-color"}
+                                            >
+                                                     <span onClick={handleDownload}>
+                                                        Mobile App
+                                                        <i className="icofont icofont-arrow-right"/>
+                                                    </span>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div
+                                className="slide-img"
+                                style={{
+                                    background: `url(${require("../../assets/images/background/1.jpg")}) center center / cover scroll no-repeat`,
+                                }}
+                            />
+                            <div className={"hero-text-wrap "}>
+                                <div className="hero-text white-color">
+                                    <div className="container text-center">
+                                        <h2 className="white-color font-500 letter-spacing-5">
+                                        FEEDING FURRY FRIENDS
+                                        </h2>
+                                       
+                                        <h3 className="white-color font-400 fst-italic">
+                                        Every mealtime is a tail-wagging delight
+                                        </h3>
+
+                                        <div className="text-center mt-30">
+                                            <div
+                                                className={"btn btn-animate btn-circle btn-color"}
+                                            >
+                                                     <span onClick={handleDownload}>
+                                                        Mobile App
+                                                        <i className="icofont icofont-arrow-right"/>
+                                                    </span>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div
+                                className="slide-img"
+                                style={{
+                                    background: `url(${require("../../assets/images/background/12.jpg")}) center center / cover scroll no-repeat`,
+                                }}
+                            />
+                            <div className={"hero-text-wrap "}>
+                                <div className="hero-text white-color">
+                                    <div className="container text-center">
+                                        <h2 className="white-color font-500 letter-spacing-5">
+                                        ON-THE-GO GRUB
+                                        </h2>
+                                       
+                                        <h3 className="white-color font-400 fst-italic">
+                                        Fuel their adventures, wherever the road takes you
                                         </h3>
 
                                         <div className="text-center mt-30">
