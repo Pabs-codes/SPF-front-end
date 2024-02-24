@@ -367,6 +367,7 @@ export default function SignUpForm(props) {
                                         }}
                                         disabled={!formIsValid}
                                         onClick={submitForm}
+                                        sx={{borderRadius:'20px'}}
                                     >
                                         Register
                                     </Button>
