@@ -280,6 +280,7 @@ export default function LoginForm(props) {
                       }}
                       disabled={!formIsValid}
                       onClick={submitForm}
+                      sx={{borderRadius:'20px'}}
                     >
                       Login
                     </Button>
